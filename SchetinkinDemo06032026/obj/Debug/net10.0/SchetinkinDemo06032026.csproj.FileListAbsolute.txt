@@ -171,3 +171,4 @@ C:\Users\User1.11\source\repos\SchetinkinDemo06032026\SchetinkinDemo06032026\obj
 C:\Users\User1.11\source\repos\SchetinkinDemo06032026\SchetinkinDemo06032026\obj\Debug\net10.0\SchetinkinDemo06032026.pdb
 C:\Users\User1.11\source\repos\SchetinkinDemo06032026\SchetinkinDemo06032026\obj\Debug\net10.0\SchetinkinDemo06032026.genruntimeconfig.cache
 C:\Users\User1.11\source\repos\SchetinkinDemo06032026\SchetinkinDemo06032026\obj\Debug\net10.0\ref\SchetinkinDemo06032026.dll
+C:\Users\User1.11\source\repos\SchetinkinDemo06032026\SchetinkinDemo06032026\obj\Debug\net10.0\SchetinkinDemo06032026.sourcelink.json

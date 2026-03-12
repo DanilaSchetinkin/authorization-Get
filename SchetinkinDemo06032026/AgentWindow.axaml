@@ -8,8 +8,30 @@
         Title="AgentWindow">
   <Grid RowDefinitions="*,*,*" 
         ColumnDefinitions="*,*,*"
-        ShowGridLines="False">
-        <ListBox Grid.Row="1"
+        ShowGridLines="True">
+      <TextBox 
+      Grid.Column="0"
+      Width="200"
+      VerticalAlignment="Center"
+      Name="Searchbox"
+      KeyUp="Searchbox_KeyUp"></TextBox>
+      <ComboBox Width="100"
+                Grid.Column="1"
+                VerticalAlignment="Center"
+                Name="SortBox"
+                SelectionChanged="SortBox_SelectionChanged">
+      <ComboBoxItem>По возрастанию</ComboBoxItem>
+      <ComboBoxItem>По убыванию</ComboBoxItem>
+      </ComboBox>  
+         <ComboBox 
+         Width="100" 
+         Grid.Column="2"
+         VerticalAlignment="Center"
+         Name="FilterBox"
+         SelectionChanged="SortBox_SelectionChanged">
+         </ComboBox>  
+      
+      <ListBox Grid.Row="1"
                  Grid.RowSpan="2"
                  Grid.Column="1"
                  Grid.ColumnSpan="2"
@@ -22,6 +44,7 @@
 						<TextBlock Text="{Binding Title}"></TextBlock>
                         <TextBlock Text="{Binding Login}"></TextBlock>
                         <TextBlock Text="{Binding Agenttype.Title}"></TextBlock>
+                        <TextBlock Text="{Binding Login}"></TextBlock>
                     </StackPanel>
                         </Grid>
                 </DataTemplate>
